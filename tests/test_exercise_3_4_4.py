@@ -13,3 +13,4 @@ import pytest
     )
 def test_call(f, x, val):
     assert Polynomial(f)(x) == val
+
